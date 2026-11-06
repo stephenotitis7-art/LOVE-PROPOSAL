@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>What Do You Like About Me?</title>
+
+<style>
+
+body{
+    font-family:Arial,sans-serif;
+    background:pink;
+    text-align:center;
+    padding:50px;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    max-width:600px;
+    margin:auto;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    background:#ff4081;
+    color:white;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>❤️ Thank You ❤️</h1>
+<form action="https://formsubmit.co/stephenotitis7@gmail.com" method="POST">
+
+<h3>What do you like about me?</h3>
+
+<label><input type="checkbox"> My smile</label><br><br>
+
+<label><input type="checkbox"> My personality</label><br><br>
+
+<label><input type="checkbox"> My kindness</label><br><br>
+
+<label><input type="checkbox"> My sense of humor</label><br><br>
+
+<label><input type="checkbox"> Everything ❤️</label><br><br>
+
+<button onclick="submitLikes()">Submit</button>
+
+
+<p id="result"></p>
+
+</div>
+
+<script>
+
+function submitLikes(){
+
+document.getElementById("result").innerHTML =
+"🥰 Thank you for sharing your thoughts!";
+
+}
+
+</script>
+
+</body>
+<a href="index.html">-Back to Home</a>
+
+</form>
+</html>
